@@ -1,3 +1,5 @@
 practicas/node_modules/
 instaclone/server/node_modules
 instaclone/server/.env
+
+instaclone/client/node_modules

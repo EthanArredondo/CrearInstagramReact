@@ -6,13 +6,17 @@
   "author": "Ethan Arredondo",
   "license": "MIT",
   "scripts": {
-    "dev": "node ./index.js"
+    "dev": "nodemon ./index.js"
   },
   "dependencies": {
     "apollo-server": "^3.13.0",
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.4.7",
     "graphql": "^16.10.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.9.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
